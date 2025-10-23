@@ -54,7 +54,13 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        poppins: ["Poppins", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
+        poppins: [
+          "Poppins",
+          "-apple-system",
+          "Roboto",
+          "Helvetica",
+          "sans-serif",
+        ],
       },
     },
   },

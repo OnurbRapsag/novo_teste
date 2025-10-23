@@ -52,11 +52,15 @@ export default function Index() {
           <div className="flex items-center gap-2">
             <div className="border-r border-[#D9D9DD] pr-2">
               <div className="flex h-[26.57px] w-[147px] items-center justify-center">
-                <span className="text-xl font-semibold text-[#0F5996]">herois.club</span>
+                <span className="text-xl font-semibold text-[#0F5996]">
+                  herois.club
+                </span>
               </div>
             </div>
             <div className="px-2">
-              <span className="text-base text-[#3B3B3F]">Organização Chico Bento</span>
+              <span className="text-base text-[#3B3B3F]">
+                Organização Chico Bento
+              </span>
             </div>
           </div>
           <button className="flex items-center gap-2 text-base text-[#3B3B3F] hover:opacity-80 transition-opacity">
@@ -70,7 +74,9 @@ export default function Index() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div className="flex flex-col justify-between gap-8 rounded-sm border border-[#D9D9DD] bg-white p-6">
             <div className="flex flex-col gap-4">
-              <h2 className="text-lg font-medium text-[#1B1B1E]">Criar link de doação</h2>
+              <h2 className="text-lg font-medium text-[#1B1B1E]">
+                Criar link de doação
+              </h2>
               <div className="flex flex-col gap-2">
                 <label className="text-base text-[#3B3B3F]">
                   Escolha um valor ou deixe o doador decidir
@@ -89,7 +95,9 @@ export default function Index() {
           <div className="flex flex-col justify-between gap-4 rounded-sm border border-[#D9D9DD] bg-white p-6">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between">
-                <h2 className="text-lg font-medium text-[#1B1B1E]">Doações do mês</h2>
+                <h2 className="text-lg font-medium text-[#1B1B1E]">
+                  Doações do mês
+                </h2>
                 <button className="rounded-3xl p-1 hover:bg-gray-100 transition-colors">
                   <Eye className="h-6 w-6 text-[#3B3B3F]" />
                 </button>
@@ -98,11 +106,17 @@ export default function Index() {
                 <div className="pb-[7px]">
                   <span className="text-lg font-bold text-[#1B1B1E]">R$</span>
                 </div>
-                <span className="text-[32px] leading-[48px] text-[#1B1B1E]">12.000,00</span>
+                <span className="text-[32px] leading-[48px] text-[#1B1B1E]">
+                  12.000,00
+                </span>
               </div>
               <div className="flex items-center justify-between rounded bg-[#E3EFFB] px-4 py-2">
-                <span className="text-base text-[#105B93]">Entradas previstas</span>
-                <span className="text-base font-medium text-[#105B93]">+ R$ 2.000,00</span>
+                <span className="text-base text-[#105B93]">
+                  Entradas previstas
+                </span>
+                <span className="text-base font-medium text-[#105B93]">
+                  + R$ 2.000,00
+                </span>
               </div>
             </div>
             <button className="flex items-center justify-center gap-2 rounded border border-[#0F5996] px-4 py-4 text-base text-[#0F5996] hover:bg-[#E3EFFB] transition-colors">
@@ -112,25 +126,37 @@ export default function Index() {
         </div>
 
         <div className="rounded-sm border border-[#D9D9DD] bg-white p-6">
-          <h2 className="mb-4 text-lg font-medium text-[#1B1B1E]">Links de doação (4)</h2>
-          
+          <h2 className="mb-4 text-lg font-medium text-[#1B1B1E]">
+            Links de doação (4)
+          </h2>
+
           <div className="overflow-x-auto">
             <div className="min-w-[800px]">
               <div className="flex border-b border-[#D9D9DD]">
                 <div className="flex-1 bg-[#E3EFFB] px-4 py-3 rounded-tl">
-                  <span className="text-sm font-medium text-[#1B1B1E]">Título do link</span>
+                  <span className="text-sm font-medium text-[#1B1B1E]">
+                    Título do link
+                  </span>
                 </div>
                 <div className="w-[104px] bg-[#E3EFFB] px-4 py-3">
-                  <span className="text-sm font-medium text-[#1B1B1E]">Criado em</span>
+                  <span className="text-sm font-medium text-[#1B1B1E]">
+                    Criado em
+                  </span>
                 </div>
                 <div className="w-[158px] bg-[#E3EFFB] px-4 py-3">
-                  <span className="text-sm font-medium text-[#1B1B1E]">Valor pedido</span>
+                  <span className="text-sm font-medium text-[#1B1B1E]">
+                    Valor pedido
+                  </span>
                 </div>
                 <div className="w-[116px] bg-[#E3EFFB] px-4 py-3">
-                  <span className="text-sm font-medium text-[#1B1B1E]">Doadores</span>
+                  <span className="text-sm font-medium text-[#1B1B1E]">
+                    Doadores
+                  </span>
                 </div>
                 <div className="w-[158px] bg-[#E3EFFB] px-4 py-3">
-                  <span className="text-sm font-medium text-[#1B1B1E]">Valor recebido</span>
+                  <span className="text-sm font-medium text-[#1B1B1E]">
+                    Valor recebido
+                  </span>
                 </div>
                 <div className="w-[150px] bg-[#E3EFFB] px-4 py-3 rounded-tr"></div>
               </div>
@@ -138,19 +164,29 @@ export default function Index() {
               {donationLinks.map((link) => (
                 <div key={link.id} className="flex border-b border-[#D9D9DD]">
                   <div className="flex-1 px-4 py-4 bg-white">
-                    <p className="line-clamp-1 text-sm text-[#5A5A5D]">{link.title}</p>
+                    <p className="line-clamp-1 text-sm text-[#5A5A5D]">
+                      {link.title}
+                    </p>
                   </div>
                   <div className="w-[104px] px-4 py-4 bg-white flex items-center">
-                    <span className="text-sm text-[#5A5A5D]">{link.createdAt}</span>
+                    <span className="text-sm text-[#5A5A5D]">
+                      {link.createdAt}
+                    </span>
                   </div>
                   <div className="w-[158px] px-4 py-4 bg-white flex items-center">
-                    <span className="text-sm text-[#5A5A5D]">{link.requestedAmount}</span>
+                    <span className="text-sm text-[#5A5A5D]">
+                      {link.requestedAmount}
+                    </span>
                   </div>
                   <div className="w-[116px] px-4 py-4 bg-white flex items-center">
-                    <span className="text-sm text-[#5A5A5D]">{link.donors}</span>
+                    <span className="text-sm text-[#5A5A5D]">
+                      {link.donors}
+                    </span>
                   </div>
                   <div className="w-[158px] px-4 py-4 bg-white flex items-center">
-                    <span className="text-sm text-[#5A5A5D]">{link.receivedAmount}</span>
+                    <span className="text-sm text-[#5A5A5D]">
+                      {link.receivedAmount}
+                    </span>
                   </div>
                   <div className="w-[150px] px-4 py-4 bg-white flex items-center gap-2">
                     <button className="flex items-center gap-2 rounded bg-[#E3EFFB] px-1 py-1 hover:bg-[#D0E5F7] transition-colors">
